@@ -1,0 +1,34 @@
+body{
+    background: hsl(212, 45%, 89%);
+}
+/* Body of the card */
+.card{
+    background: hsl(0, 0%, 100%);
+    width: 280px;
+    padding: 17px;
+    border-radius: 30px;
+    margin: 20% auto;
+}
+/* Qr code image */
+#qrcode{
+    width: 280px;
+    border-radius: 20px;
+}
+/* Write ups */
+.writeup{
+    font-family: Outfit;
+    text-align: center;
+    font-size: 15px;
+    color: hsl(218, 44%, 22%);
+}
+
+
+/* Fonts */
+@font-face {
+    font-family: Outfit;
+    src: url(/Fonts/Outfit-Regular.ttf);
+}
+@font-face {
+    font-family: Outfit-Bold;
+    src: url(/Fonts/Outfit-Bold.ttf);
+}
