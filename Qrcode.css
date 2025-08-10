@@ -7,7 +7,7 @@ body{
     width: 280px;
     padding: 17px;
     border-radius: 30px;
-    margin: 20% auto;
+    margin: 40% auto;
 }
 /* Qr code image */
 #qrcode{
@@ -21,8 +21,6 @@ body{
     font-size: 15px;
     color: hsl(218, 44%, 22%);
 }
-
-
 /* Fonts */
 @font-face {
     font-family: Outfit;
@@ -31,4 +29,22 @@ body{
 @font-face {
     font-family: Outfit-Bold;
     src: url(/Fonts/Outfit-Bold.ttf);
+}
+/* Media-Query (Mobile)*/
+@media (min-width:357px) {
+    .card {
+        background: hsl(0, 0%, 100%);
+        width: 280px;
+        padding: 17px;
+        border-radius: 30px;
+        margin: 16% auto;
+    }
+/* Media-Query (Desktop) */
+@media (max-width:1440px) {
+    .card {
+            background: hsl(0, 0%, 100%);
+            width: 280px;
+            padding: 17px;
+            border-radius: 30px;
+            margin: 16% auto;
 }
