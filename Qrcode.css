@@ -6,13 +6,13 @@ body{
     background: hsl(0, 0%, 100%);
     width: 280px;
     padding: 17px;
-    border-radius: 30px;
-    margin: 40% auto;
+    border-radius: 18px;
+    margin: 10% auto;
 }
 /* Qr code image */
 #qrcode{
     width: 280px;
-    border-radius: 20px;
+    border-radius: 13px;
 }
 /* Write ups */
 .writeup{
@@ -20,6 +20,9 @@ body{
     text-align: center;
     font-size: 15px;
     color: hsl(218, 44%, 22%);
+}
+h1{
+    font-size: 1.4rem;
 }
 /* Fonts */
 @font-face {
@@ -37,14 +40,16 @@ body{
         width: 280px;
         padding: 17px;
         border-radius: 30px;
-        margin: 20% auto;
+        margin: 10% auto;
     }
-/* Media-Query (Desktop) */
-@media (max-width:1440px) {
+
+@media (max-width:1250px) {
     .card {
             background: hsl(0, 0%, 100%);
             width: 280px;
             padding: 17px;
             border-radius: 30px;
-            margin: 20% auto;
+            margin: 50% auto;
+            font-size: 1.4rem;
+        }
 }
